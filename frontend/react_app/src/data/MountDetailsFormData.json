@@ -1,0 +1,196 @@
+[
+    {
+        "name": "MountType",
+        "label": "Mount Type",
+        "type": "dropdown",
+        "controlId": "MountType",
+        "options": [
+            "Platform",
+            "SectorMount",
+            "3-Sector",
+            "T-arm",
+            "3-T-arm"
+        ],
+        "displayCondition": [
+            "Platform",
+            "SectorMount",
+            "3-Sector",
+            "T-arm",
+            "3-T-arm"
+        ]
+    },
+    {
+        "name": "SubType",
+        "label": "Sub Type",
+        "type": "dropdown",
+        "controlId": "SubType",
+        "options": [
+            "3-Sided",
+            "4-Sided",
+            "Circular"
+        ],
+        "displayCondition": [
+            "Platform"
+        ]
+    },
+    {
+        "name": "BoomType",
+        "label": "Boom Type",
+        "type": "dropdown",
+        "controlId": "BoomType",
+        "options": [
+            "V-Boom",
+            "Standard"
+        ],
+        "displayCondition": [
+            "Platform",
+            "SectorMount",
+            "3-Sector"
+        ]
+    },
+    {
+        "name": "NumOfHandrails",
+        "label": "No of Handrails (in)",
+        "type": "number",
+        "controlId": "NumOfHandrails",
+        "placeholder": "Enter no of handrails in inches",
+        "displayCondition": [
+            "Platform",
+            "SectorMount",
+            "3-Sector"
+        ]
+    },
+    {
+        "name": "HandrailSpacing",
+        "label": "Handrail Spacing (in)",
+        "type": "number",
+        "controlId": "HandrailSpacing",
+        "placeholder": "Enter handrail spacing in inches",
+        "displayCondition": [
+            "Platform",
+            "SectorMount",
+            "3-Sector",
+            "T-arm",
+            "3-T-arm"
+        ]
+    },
+    {
+        "name": "Diameter",
+        "label": "Diameter (in)",
+        "type": "number",
+        "controlId": "Diameter",
+        "placeholder": "Enter diameter in inches",
+        "displayCondition": [
+            "Platform"
+        ]
+    },
+    {
+        "name": "FaceWidth",
+        "label": "Face Width (in)",
+        "type": "number",
+        "controlId": "FaceWidth",
+        "placeholder": "Enter face width in inches",
+        "displayCondition": [
+            "Platform",
+            "SectorMount",
+            "3-Sector",
+            "T-arm",
+            "3-T-arm"
+        ]
+    },
+    {
+        "name": "Height",
+        "label": "Height (in)",
+        "type": "number",
+        "controlId": "Height",
+        "placeholder": "Enter height in inches",
+        "displayCondition": [
+            "Platform",
+            "SectorMount",
+            "3-Sector"
+        ]
+    },
+    {
+        "name": "Standoff",
+        "label": "Standoff (in)",
+        "type": "number",
+        "controlId": "Standoff",
+        "placeholder": "Enter standoff in inches",
+        "displayCondition": [
+            "SectorMount",
+            "3-Sector",
+            "T-arm",
+            "3-T-arm"
+        ]
+    },
+    {
+        "name": "Kicker",
+        "label": "Kicker (in)",
+        "type": "number",
+        "controlId": "Kicker",
+        "placeholder": "Enter kicker in inches",
+        "displayCondition": [
+            "Platform"
+        ]
+    },
+    {
+        "name": "FaceRotation",
+        "label": "Face Rotation (in)",
+        "type": "number",
+        "controlId": "FaceRotation",
+        "placeholder": "Enter face rotation in inches",
+        "displayCondition": [
+            "T-arm",
+            "3-T-arm"
+        ]
+    },
+    {
+        "name": "MountAzimuth",
+        "label": "Mount Azimuth (degree)",
+        "type": "number",
+        "controlId": "MountAzimuth",
+        "placeholder": "Enter mount azimuth in degree",
+        "displayCondition": [
+            "Platform"
+        ]
+    },
+    {
+        "name": "MountAzimuthFaceA",
+        "label": "Mount Azimuth FaceA (degree)",
+        "type": "number",
+        "controlId": "MountAzimuthFaceA",
+        "placeholder": "Enter mount azimuth faceA in degree",
+        "displayCondition": [
+            "SectorMount",
+            "3-Sector",
+            "T-arm",
+            "3-T-arm"
+        ]
+    },
+    {
+        "name":"MountAzimuthFaceB",
+        "label": "Mount Azimuth FaceB (degree)",
+        "type": "number",
+        "controlId": "MountAzimuthFaceB",
+        "placeholder": "Enter mount azimuth faceB in degree",
+        "displayCondition": [
+            "SectorMount",
+            "3-Sector",
+            "T-arm",
+            "3-T-arm"
+        ]
+    },
+    {
+        "name":"MountAzimuthFaceC",
+        "label": "Mount Azimuth FaceC (degree)",
+        "type": "number",
+        "controlId": "MountAzimuthFaceC",
+        "placeholder": "Enter mount azimuth faceC in degree",
+        "displayCondition": [
+            "SectorMount",
+            "3-Sector",
+            "T-arm",
+            "3-T-arm"
+        ]
+    }
+]

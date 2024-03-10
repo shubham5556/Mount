@@ -1,0 +1,43 @@
+[
+    {
+        "name": "NumOfTieBacks",
+        "label": "No of Tie Backs",
+        "controlId": "NumOfTieBacks",
+        "type": "number",
+        "placeholder": "Enter number of tie backs"
+    },
+    {
+        "name": "MountConnection",
+        "label": "Mount Connection",
+        "controlId": "MountConnection",
+        "type": "dropdown",
+        "options": [
+            "FrontFace",
+            "PipeMount"
+        ]
+    },
+    {
+        "name": "EndConnection",
+        "label": "End Connection",
+        "controlId": "EndConnection",
+        "type": "dropdown",
+        "options": [
+            "Tower Leg",
+            "Custom"
+        ]
+    },
+    {
+        "name": "LenOfTieBack",
+        "label": "Length of Tie Back (ft)",
+        "controlId": "LenOfTieBack",
+        "type": "number",
+        "placeholder": "Enter length of tie back in feet"
+    },
+    {
+        "name": "AngleOfTieBack",
+        "label": "Angle of Tie Back (degree)",
+        "controlId": "AngleOfTieBack",
+        "type": "number",
+        "placeholder": "Enter angle of tie back in degree"
+    }
+]

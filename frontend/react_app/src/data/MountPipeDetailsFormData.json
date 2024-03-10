@@ -1,0 +1,80 @@
+[
+    {
+        "name": "MountPipes",
+        "label": "Mount Pipes",
+        "controlId": "MountPipes",
+        "type": "dropdown",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "name": "NumOfMountPipes",
+        "label": "No of Mount Pipes",
+        "type": "number",
+        "controlId": "NumOfMountPipes",
+        "placeholder": "Enter number of mount pipes"
+    },
+    {
+        "name": "RigidConnection",
+        "label": "Rigid Connection",
+        "controlId": "RigidConnection",
+        "type": "dropdown",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "name": "RigidOffset",
+        "label": "Rigid Offset (in)",
+        "type": "number",
+        "controlId": "RigidOffset",
+        "placeholder": "Enter rigid offset in inches"
+    },
+    {
+        "name": "RigidMomentRelease",
+        "label": "Rigid Moment Release",
+        "controlId": "RigidMomentRelease",
+        "type": "dropdown",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "name": "ReleaseToMountPipe",
+        "label": "Release To Mount Pipe",
+        "type": "number",
+        "controlId": "ReleaseToMountPipe",
+        "placeholder": "Enter release to mount pipe"
+    },
+    {
+        "name": "EndDistance",
+        "label": "End Distance (in)",
+        "type": "number",
+        "controlId": "EndDistance",
+        "placeholder": "Enter end distance in inches"
+    },
+    {
+        "name": "HorizontalSpacing",
+        "label": "Horizontal Spacing",
+        "controlId": "HorizontalSpacing",
+        "type": "dropdown",
+        "options": [
+            "Evenly",
+            "Custom"
+        ]
+    },
+    {
+        "name": "VerticalSpacing",
+        "label": "Vertical Spacing",
+        "controlId": "VerticalSpacing",
+        "type": "dropdown",
+        "options": [
+            "Evenly",
+            "Custom"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "name": "FaceType",
+        "label": "Face Type",
+        "controlId": "FaceType",
+        "type": "text",
+        "placeholder": "From XML"
+    },
+    {
+        "name": "PlanTypeForHandrail",
+        "label": "Plan Type For Each Handrail Level",
+        "controlId": "PlanTypeForHandrail",
+        "type": "text",
+        "placeholder": "From XML"
+    },
+    {
+        "name": "SectorMountBB",
+        "label": "Sector Mount Boom Brace",
+        "controlId": "SectorMountBB",
+        "type": "text",
+        "placeholder": "Enter Sector Mount Boom Brace"
+    }
+]

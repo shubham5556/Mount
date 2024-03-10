@@ -1,0 +1,27 @@
+[
+    {
+        "name": "HorizontalOffset",
+        "label": "Horizontal Offset (ft)",
+        "controlId": "HorizontalOffset",
+        "type": "number",
+        "placeholder": "Enter horizontal offset in feet"
+    },
+    {
+        "name": "HeightKicker",
+        "label": "Height of Kicker (ft)",
+        "controlId": "HeightKicker",
+        "type": "number",
+        "placeholder": "Enter height of kicker in feet"
+    },
+    {
+        "name": "SupportType",
+        "label": "Support Type",
+        "controlId": "SupportType",
+        "type": "dropdown",
+        "options": [
+            "Pinned",
+            "Fixed",
+            "FixedBut"
+        ]
+    }
+]

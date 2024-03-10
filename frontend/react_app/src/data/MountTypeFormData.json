@@ -1,0 +1,28 @@
+[
+    {
+        "name": "MountType",
+        "label": "Mount Type",
+        "controlId": "MountType",
+        "type": "dropdown",
+        "options": [
+            "Select Mount Type",
+            "Monopole",
+            "3 Sided",
+            "4 Sided"
+        ]
+    },
+    {
+        "name": "Width",
+        "label": "Width (ft)",
+        "type": "number",
+        "controlId": "Width",
+        "placeholder": "Enter width in feet"
+    },
+    {
+        "name": "Height",
+        "label": "Height (ft)",
+        "type": "number",
+        "controlId": "Height",
+        "placeholder": "Enter height in feet"
+    }
+]
